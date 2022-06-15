@@ -5,7 +5,7 @@ Replaces default Illuminate\Bus\DatabaseBatchRepository with implementation base
 ## Requirements:
 
 * php 8
-* laravel 8
+* laravel 8 or 9
 * phpredis or predis
 
 ## Installation
