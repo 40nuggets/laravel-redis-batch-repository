@@ -12,7 +12,8 @@
     "require": {
         "php": "^8.0",
         "illuminate/bus": "^9.0",
-        "nesbot/carbon": "^2.31"
+        "nesbot/carbon": "^2.31",
+        "laravel/framework": "^9.18"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.3",
