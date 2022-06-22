@@ -1,5 +1,5 @@
 {
-    "name": "rnix/laravel-redis-batch-repository",
+    "name": "forty/laravel-redis-batch-repository",
     "description": "Provides redis repository implementation for Laravel Queue Batch",
     "type": "library",
     "license": "MIT",
@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "illuminate/bus": "^8.0|^9.0",
+        "illuminate/bus": ">=8.0",
         "nesbot/carbon": "^2.31"
     },
     "require-dev": {
