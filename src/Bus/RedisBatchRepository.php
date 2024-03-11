@@ -214,8 +214,8 @@ class RedisBatchRepository implements PrunableBatchRepository
             $failedJobIds,
             unserialize($batch['options']),
             CarbonImmutable::createFromTimestamp($batch['created_at']),
-            $batch['cancelled_at'] ? CarbonImmutable::createFromTimestamp($batch['cancelled_at']) : null,
-            $batch['finished_at'] ? CarbonImmutable::createFromTimestamp($batch['finished_at']) : null,
+            !empty($batch['cancelled_at']) ? CarbonImmutable::createFromTimestamp($batch['cancelled_at']) : null,
+            !empty($batch['finished_at']) ? CarbonImmutable::createFromTimestamp($batch['finished_at']) : null,
         );
     }
 
